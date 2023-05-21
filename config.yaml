@@ -1,5 +1,5 @@
 baseurl: /
-title: Mainroad
+title: TipsyData
 languageCode: en-us
 paginate: '10'
 theme: Mainroad
@@ -7,14 +7,13 @@ disqusShortname: ''
 googleAnalytics: ''
 Author:
   avatar: img/avatar.png
-  bio: John Doe's true identity is unknown. Maybe he is a successful blogger or writer.
-    Nobody knows it.
-  name: John Doe
+  bio: Kelvin M. Muia is a Tipsy-data Analyst based in Nairobi, Kenya.
+  name: Kelvin Mwaka Muia
 Params:
   authorbox: yes
-  description: John Doe's Personal blog about everything
+  description: Kelvin Mwaka Muia's personal blog about everything tipsy data analytics.
   logo:
-    subtitle: Just another site
+    subtitle: How tipsy do you like your data?
   mainSections:
     - post
     - docs
