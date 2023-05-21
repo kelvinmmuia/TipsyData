@@ -5,6 +5,8 @@
 
 **[Demo](https://mainroad-demo.netlify.app/)** • **[Docs](https://mainroad-demo.netlify.app/docs/)**
 
+**[![Netlify Status](https://api.netlify.com/api/v1/badges/c8bf0a7c-a1bb-46f6-a4bf-894b93334d5f/deploy-status)](https://app.netlify.com/sites/tipsydata/deploys)**
+
 ![screenshot](https://raw.githubusercontent.com/Vimux/Mainroad/master/images/screenshot.png)
 
 **Features:**
