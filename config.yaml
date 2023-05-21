@@ -5,6 +5,7 @@ paginate: '10'
 theme: Mainroad
 disqusShortname: 'tipsydata'
 googleAnalytics: 'G-YNMLVTTZ1X'
+Content-Type: text/plain
 Author:
   avatar: img/avatar.png
   bio: Kelvin M. Muia is a Tipsy-data Analyst based in Nairobi, Kenya.
