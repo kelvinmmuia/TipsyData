@@ -1,10 +1,10 @@
-baseurl: /
+baseurl: "https://tipsydata.netlify.app/"
 title: TipsyData
 languageCode: en-us
 paginate: '10'
 theme: Mainroad
-disqusShortname: 'tipsydata'
-googleAnalytics: 'G-YNMLVTTZ1X'
+disqusShortname: "tipsydata" 
+googleAnalytics: "G-YNMLVTTZ1X"
 Content-Type: text/plain
 Author:
   avatar: img/avatar.png
