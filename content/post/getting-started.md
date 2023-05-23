@@ -24,9 +24,11 @@ weight: 1
 
 ## Why Choose R for Data Science?
 
-R is a powerful programming language and open-source software environment for statistical computing and graphics. 
+R is a powerful programming language and open-source software environment for statistical computing and graphics.
 
 Here are a few reasons why many data scientists prefer to use R:
+
+<!--more-->
 
 - **Extensive Data Analysis Capabilities**: R provides a wide range of packages and functions for data manipulation, statistical modeling, machine learning, and visualization.
 - **Active Community**: R has a vibrant and supportive community of users, contributing to the development of packages, providing helpful resources, and sharing knowledge through forums and conferences.
