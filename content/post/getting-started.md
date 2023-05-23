@@ -4,23 +4,23 @@ date: "2023-05-23"
 description: Learn how to install R and RStudio, and print 'Hello World' in R. Discover why R is a popular choice for data science.
 lead: Get started with R and RStudio for data science. Install R, explore its capabilities, and print your first 'Hello World' message.
 menu: main
-pager: false
-sidebar: false
+pager: true
+sidebar: true
 thumbnail:
   src: img/R_logo.png
   visibility:
   - list
 categories: 
+- R
 - Installation
 tags:
+- r
 - installation
 title: Getting Started with R; Installation, RStudio, and Hello World
 weight: 1
 ---
 
-## Installation
-
-Welcome to TipsyData!   
+# Welcome to TipsyData!   
 
 ## Why Choose R for Data Science?
 
@@ -40,7 +40,7 @@ To get started with R, you need to install it on your system. Follow these steps
 4. Follow the installation instructions specific to your operating system.
 5. Once the installation is complete, you can launch R.
 
-## Hello World
+## Hello World.
 
 Now that you have R installed, let's print the famous "Hello World" message. In R, you can use the `print()` function to display text on the console. Open R and type the following command:
 
@@ -51,7 +51,7 @@ print("Hello World")
 I don't know about you, but I prefer using IDE's whenever it is possible for my work. This way, many processes in your routine coding sessions can be easily stored for re-using. It is for this reason that we introduce you to `Rstudio`.
 
 
-## Installing RStudio
+## Installing RStudio.
 
 To get started with R, you need to install both R and RStudio. Follow these steps:
 
@@ -61,29 +61,35 @@ To get started with R, you need to install both R and RStudio. Follow these step
 
 Once both R and RStudio are installed, you can launch RStudio to start working with R.
 
-## RStudio Panes
+## RStudio Panes.
+
+![Labeled Rstudio panes](/img/rstudio-panes-labeled.png)
+
+<img src="/img/rstudio-panes-labeled.png" alt="Labeled Rstudio panes" width="400" height="300">
 
 When working with RStudio, you'll encounter different panes that provide various functionalities and help you in your data analysis and coding tasks. Here's a brief overview of the main panes in RStudio:
 
-### Source Editor
+### Source Editor.
 
 The source editor pane is where you write your code. It supports syntax highlighting, auto-completion, and code formatting. You can create, edit, and save R scripts and Markdown documents in this pane.
 
-### Console
+### Console.
 
 The console pane is where you interact with R directly. You can type commands and see the results immediately. It's useful for testing code snippets, running individual commands, and getting immediate feedback.
 
-### Environment/History
+### Environments/ History.
 
 The environment/history pane displays information about your current R session. It shows the variables in your workspace, their values, and other useful information. You can also access your command history in this pane.
 
-### Files/Plots/Packages/Help
+#### Git/ Viewer/ Build/ Connections.
+
+The git/viewer/build/connections pane offers additional functionality. It integrates with version control systems like Git, provides a viewer for various file types, enables project building and management, and facilitates connections to databases and APIs.
+
+### Outputs/ Directory/ Packages/ Help.
 
 The files/plots/packages/help pane provides quick access to various resources. You can navigate and manage your project files, view plots and charts, install and load packages, and access documentation and help files.
 
-### Git/Viewer/Build/Connections
 
-The git/viewer/build/connections pane offers additional functionality. It integrates with version control systems like Git, provides a viewer for various file types, enables project building and management, and facilitates connections to databases and APIs.
 
 ## Customize Your Layout
 
@@ -101,7 +107,9 @@ print("Hello World")
 
 Press enter, and R will execute the command and display "Hello World" as the output.
 
-Congratulations! You're now ready to explore the world of data science with R. Stay tuned for more exciting R tutorials and tips!
+Congratulations! You're now ready to explore the world of data science with R. 
+
+Stay tuned for more exciting R tutorials and tips!
 
 
 
