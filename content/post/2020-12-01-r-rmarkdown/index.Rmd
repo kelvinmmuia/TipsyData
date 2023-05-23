@@ -2,8 +2,15 @@
 title: "Introduction to Data Types in R"
 author: "Kelvin M. Muia"
 date: "2023-05-23"
-categories: ["R"]
-tags: ["R Markdown","r", "data", "analysis","data type","plot", "regression"]
+categories: R
+tags:
+- R Markdown
+- r
+- data
+- analysis
+- data type
+- plot
+- regression
 ---
 
 ```{r setup, include=FALSE}
