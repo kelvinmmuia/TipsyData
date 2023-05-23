@@ -2,8 +2,7 @@
 categories:
 - Development
 date: "2018-04-16"
-description: Example test article that contains basic HTML elements for text formatting
-  on the Web.
+description: Example test article that contains basic HTML elements for text formatting on the Web.
 menu:
   main:
     name: Basic Elements
