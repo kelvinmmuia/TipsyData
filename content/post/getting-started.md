@@ -20,8 +20,6 @@ title: Getting Started with R; Installation, RStudio, and Hello World
 weight: 1
 ---
 
-# Welcome to TipsyData!   
-
 ## Why Choose R for Data Science?
 
 R is a powerful programming language and open-source software environment for statistical computing and graphics.
