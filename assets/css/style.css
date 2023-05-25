@@ -62,18 +62,18 @@ body {
 .container {
 	position: relative;
 	width: 100%;
-	max-width: 1080px;
+	max-width: 1360px;
 	margin: 0 auto;
 }
 
 .container--outer {
-	margin: 25px auto;
-	box-shadow: 0 0 10px rgba(50, 50, 50, .17);
+	margin: 20px auto;
+	box-shadow: 0 0 5px rgba(100, 100, 100, .20);
 }
 
 .wrapper {
-	padding: 25px;
-	background: #fff;
+	padding: 20px;
+	background: #fafafa
 }
 
 .flex {
@@ -190,7 +190,7 @@ h5 {
 }
 
 h6 {
-	font-size: 16px;
+	font-size: 14px;
 	font-size: 1rem;
 }
 
