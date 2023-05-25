@@ -18,7 +18,7 @@ tags:
 description: This article guides you in accessing the functionality of the R programming language through installation and management of packages/libraries.
 lead: This article guides you in accessing the functionality of the R programming language through installation and management of packages/libraries.
 thumbnail:
-  src: img/Norman_Vaughan.png
+  src: img/r_packages.png
   visibility:
   - list
 ---
