@@ -74,6 +74,7 @@ ggplot(Boston, aes(x = rm, y = medv)) +
 
 
 ![A simple scatter plot](index_files/figure-html/scatterplot-1.png)
+
      
 
 In the scatter plot above, we can observe the relationship between the average number of rooms and the median value of owner-occupied homes. This plot gives us an initial understanding of how these variables are related. For instance, there appears to be a positive trend, where an increase in the number of rooms in a dwelling unit appears to result to an increase in the median value of owner occupied homes. This relationship could be explored using other methods such as `OLS` regression.    
@@ -95,6 +96,7 @@ ggplot(Boston, aes(x = factor(chas), y = medv, fill= factor(chas))) +
 
      
 ![A simple scatter plot](index_files/figure-html/boxplot-1.png)
+
 A boxplot is a powerful way of visualizing numerical data grouped by nominal or ordinal features. In this example, note the conversion of the otherwise `integer` data type of the `chas` variable to factor variable, which enables us to visualize the boxplot above. From the boxplot, it is easy to conclude that those census tracts bound to the Charles river were observed to have higher median values of owner occupied homes than those that weren't during the 1970 census. The boxplot also ndicates the presence of outliers (points that go beyond Tukey's fences) for those tracts that weren't bound to the river.   
 
 **Conclusion**  
