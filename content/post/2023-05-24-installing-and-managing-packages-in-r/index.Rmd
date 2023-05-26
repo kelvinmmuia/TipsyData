@@ -15,21 +15,20 @@ tags:
   - tidyverse
   - ggplot2
   - rstats
-description: ''
-thumbnail: ''
+description: This article guides you in accessing the functionality of the R programming language through installation and management of packages/libraries.
+lead: This article guides you in accessing the functionality of the R programming language through installation and management of packages/libraries.
+thumbnail:
+  src: img/r_packages.png
+  visibility:
+  - list
 ---
 
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(collapse = TRUE)
-```
+<!--more-->
 
 **Introduction.**
 
 Packages in R are collections of functions, data, and documentation that extend the functionality of the base R system. They allow you to access additional tools and resources for various tasks, such as data manipulation, statistical analysis, data visualization, and machine learning. 
 In this tutorial, we will explore how to install and manage packages in R.
-
-<!--more-->
 
 **Installing Packages.**
 

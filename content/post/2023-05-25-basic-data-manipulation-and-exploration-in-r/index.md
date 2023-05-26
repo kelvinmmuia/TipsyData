@@ -1,6 +1,6 @@
 ---
-title: "Basic Data Manipulation and Exploration in R"
-author: "Kelvin M.Muia"
+title: Basic Data Manipulation and Exploration in R
+author: Kelvin M. Muia
 date: "2023-05-25"
 slug: []
 categories:
@@ -26,13 +26,12 @@ thumbnail:
   visibility: list
 ---
 
+<!--more-->
 
 **Importing Data.**
 
 Before we can start manipulating and exploring data, we need to import it into R. R provides various functions to read data from different file formats such as CSV, Excel, or databases. 
 Here's an example of importing a CSV file:
-
-<!--more-->
 
 
 ```r

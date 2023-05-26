@@ -23,12 +23,12 @@ thumbnail:
   - list
 ---
 
+<!--more-->
+
 **Introduction.**
 
 Packages in R are collections of functions, data, and documentation that extend the functionality of the base R system. They allow you to access additional tools and resources for various tasks, such as data manipulation, statistical analysis, data visualization, and machine learning. 
 In this tutorial, we will explore how to install and manage packages in R.
-
-<!--more-->
 
 **Installing Packages.**
 
