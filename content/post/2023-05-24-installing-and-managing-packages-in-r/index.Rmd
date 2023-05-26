@@ -19,8 +19,7 @@ description: This article guides you in accessing the functionality of the R pro
 lead: This article guides you in accessing the functionality of the R programming language through installation and management of packages/libraries.
 thumbnail:
   src: img/r_packages.png
-  visibility:
-  - list
+  visibility: list
 ---
 
 <!--more-->
