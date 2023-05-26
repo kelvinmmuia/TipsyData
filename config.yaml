@@ -14,7 +14,7 @@ Params:
   authorbox: yes
   description: Kelvin Mwaka Muia's personal blog about everything tipsy data analytics.
   logo:
-    subtitle: How tipsy do you like your data?
+    subtitle: Data Science demystified with R.
   mainSections:
     - post
     - docs
