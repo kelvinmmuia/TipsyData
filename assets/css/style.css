@@ -51,9 +51,9 @@ html {
 body {
 	margin: 0;
 	font-family: {{ $fontFamilyPrimary }};
-	font-size: 12px;
+	font-size: 14px;
 	font-size: .875rem;
-	line-height: 1.4;
+	line-height: 1.6;
 	word-wrap: break-word;
 	background: #f7f7f7;
 	-webkit-font-smoothing: antialiased;
@@ -62,7 +62,7 @@ body {
 .container {
 	position: relative;
 	width: 100%;
-	max-width: 1080px;
+	max-width: 1260px;
 	margin: 0 auto;
 }
 
