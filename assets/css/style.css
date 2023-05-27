@@ -82,16 +82,16 @@ body {
 }
 
 .primary {
-	-webkit-flex: 1 0 61.8%;
-	flex: 1 0 61.8%;
+	-webkit-flex: 1 0 65.38%;
+	flex: 1 0 65.38%;
 	-webkit-order: 1;
 	order: 1;
 	min-width: 0;
 }
 
 .sidebar {
-	-webkit-flex: 1 0 38.2%;
-	flex: 1 0 38.2%;
+	-webkit-flex: 1 0 34.62%;
+	flex: 1 0 34.62%;
 	-webkit-order: 2;
 	order: 2;
 	min-width: 0;
