@@ -1,35 +1,59 @@
 ---
 title: Introduction to Data Types in R
-authorbox: true
+author: Kelvin M. Muia
 date: '2023-05-23'
 slug: []
 categories:
   - R
 tags:
   - r
-description: ''
-thumbnail: ''
-description: This article helps you get started with the R programming language by getting accustomed to some of its data types.
+  - data types in r
+  - data analysis in r
+  - EDA in r
+description: Primitive data types in R.
 lead: This article helps you get started with the R programming language by getting accustomed to some of its data types.
 ---
 
-**Introduction to Data Types in R**
 
-In R, data objects are classified into different data types. Understanding the various data types is crucial for effective data manipulation and analysis. This post provides an overview of the commonly used data types in R and includes examples to illustrate their usage.
+
 
 <!--more-->
 
-***Numeric.***  
+# Introduction to Data Types in R
+
+In R, data objects are classified into different data types. Understanding the various data types is crucial for effective data manipulation and analysis. This post provides an overview of the commonly used data types in R and includes examples to illustrate their usage.
+
+
+## Integer.  
+
+The `integer` data type represents a class of the general numeric values. A number can be explicitly set to `integer` data type by adding a capital letter `L` next to it.
+
+
+```r
+#example: Numeric data
+a <- 5L
+b<- 4L
+c<- a+b
+class(a)
+## [1] "integer"
+class(b)
+## [1] "integer"
+class(c)
+## [1] "integer"
+```
+
+
+## Numeric.  
 
 
 The `numeric` data type represents numeric values, including integers and decimals. It is commonly used for mathematical calculations.
 
 
+
 ```r
-# Example: Numeric data
+#example: Numeric data
 x <- 5
 y <- 3.14
-
 class(x)
 ## [1] "numeric"
 class(y)
@@ -37,7 +61,7 @@ class(y)
 ```
 
 
-***Character.***  
+## Character.   
 
 The `character` data type represents text strings. It is used for storing and manipulating textual data.
 
@@ -51,12 +75,15 @@ paste(name, message, sep = " ")
 class(name)
 ## [1] "character"
 ```
-***Logical.***  
+
+## Logical.  
 
 The logical data type represents Boolean values, which can be either TRUE or FALSE. It is used for logical operations and conditional statements.
 
+
+
 ```r
-# Example: Logical data
+#example: Logical data
 is_true <- TRUE
 is_false <- FALSE
 class(is_true)
@@ -66,7 +93,7 @@ class(is_false)
 ```
 
 
-***Factor.***   
+## Factor.   
 
 The factor data type represents categorical variables with predefined levels. It is commonly used in statistical analyses.
 
@@ -79,13 +106,14 @@ str(gender)
 ```
 
 
-***Date and Time.***   
+## Date and Time.   
 
 The Date and POSIXct data types are used for handling dates and times, respectively.  
 
 
+
 ```r
-# Example: Date and time data
+#example: Date and time data
 today <- as.Date("2023-05-22")
 current_time <- Sys.time()
 class(today)

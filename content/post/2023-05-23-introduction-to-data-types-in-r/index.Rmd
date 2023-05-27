@@ -1,23 +1,45 @@
 ---
 title: Introduction to Data Types in R
-author: Kelvin M.Muia
+author: Kelvin M. Muia
 date: '2023-05-23'
 slug: []
 categories:
   - R
 tags:
   - r
-description: ''
-thumbnail: ''
+  - data types in r
+  - data analysis in r
+  - EDA in r
+description: Primitive data types in R.
+lead: This article helps you get started with the R programming language by getting accustomed to some of its data types.
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
+
+<!--more-->
+
 # Introduction to Data Types in R
 
 In R, data objects are classified into different data types. Understanding the various data types is crucial for effective data manipulation and analysis. This post provides an overview of the commonly used data types in R and includes examples to illustrate their usage.
+
+
+## Integer.  
+
+The `integer` data type represents a class of the general numeric values. A number can be explicitly set to `integer` data type by adding a capital letter `L` next to it.
+
+```{r}
+#example: Numeric data
+a <- 5L
+b<- 4L
+c<- a+b
+class(a)
+class(b)
+class(c)
+```
+
 
 ## Numeric.  
 
@@ -26,10 +48,9 @@ The `numeric` data type represents numeric values, including integers and decima
 
 
 ```{r}
-# Example: Numeric data
+#example: Numeric data
 x <- 5
 y <- 3.14
-
 class(x)
 class(y)
 ```
@@ -46,13 +67,14 @@ message <- "Hello, world!"
 paste(name, message, sep = " ")
 class(name)
 ```
+
 ## Logical.  
 
 The logical data type represents Boolean values, which can be either TRUE or FALSE. It is used for logical operations and conditional statements.
 
 
 ```{r}
-# Example: Logical data
+#example: Logical data
 is_true <- TRUE
 is_false <- FALSE
 class(is_true)
@@ -77,7 +99,7 @@ The Date and POSIXct data types are used for handling dates and times, respectiv
 
 
 ```{r}
-# Example: Date and time data
+#example: Date and time data
 today <- as.Date("2023-05-22")
 current_time <- Sys.time()
 class(today)
