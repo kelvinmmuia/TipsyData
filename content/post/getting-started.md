@@ -16,8 +16,8 @@ categories:
 tags:
 - r
 - installation
-title: Getting Started with R; Installation, RStudio, and Hello World
-weight: 1
+title: Getting Started with R
+weight: 0
 ---
 
 <!--more-->
