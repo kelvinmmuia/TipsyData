@@ -17,7 +17,7 @@ tags:
 - r
 - installation
 title: Getting Started with R
-weight: 0
+weight: 1
 ---
 
 <!--more-->
