@@ -18,16 +18,19 @@ Params:
   mainSections:
     - post
     - docs
+    - news
   opengraph: yes
   pager: yes
+  toc: true
   post_meta:
     - date
     - categories
+    - author
   readmore: yes
   sidebar:
     home: right
     list: right
-    single: right
+    single: left
     widgets:
       - search
       - social
