@@ -39,9 +39,9 @@ Params:
     recent_num: 5
     tags_counter: yes
   social:
-      linkedin: kelvin-mwaka-muia
-      twitter: mwakakelvin
-      facebook: tipsydata
-      github: kelvinmmuia
-      email: kelvinmwaka@gmail.com
+      linkedin: "kelvin-mwaka-muia"
+      twitter: "mwakakelvin"
+      facebook: "tipsydata"
+      github: "kelvinmmuia"
+      email: "kelvinmwaka@gmail.com"
 
