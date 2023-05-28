@@ -19,13 +19,13 @@ Params:
     - post
     - docs
     - news
-  opengraph: yes
-  pager: yes
+  opengraph: true
+  pager: true
   post_meta:
     - date
     - categories
     - author
-  readmore: yes
+  readmore: true
   sidebar:
     home: right
     list: right
@@ -39,6 +39,7 @@ Params:
   twitter_cards: yes
   widgets:
     recent_num: 5
+    categories_num: 6
     tags_counter: yes
     social:
       cached: false
