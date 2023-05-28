@@ -23,7 +23,7 @@ Params:
   post_meta:
     - date
     - categories
-  readmore: no
+  readmore: yes
   sidebar:
     home: right
     list: right
@@ -33,7 +33,7 @@ Params:
       - recent
       - categories
       - taglist
-  twitter_cards: no
+  twitter_cards: yes
   widgets:
     recent_num: 5
     tags_counter: no
