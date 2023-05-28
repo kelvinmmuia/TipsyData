@@ -29,16 +29,18 @@ Params:
     list: right
     single: right
     widgets:
-      - social
       - search
+      - social
       - recent
       - categories
       - taglist
+      - languages
   twitter_cards: no
   widgets:
     recent_num: 5
     tags_counter: yes
-  social:
+    social:
+      cached: false
       linkedin: "kelvin-mwaka-muia"
       twitter: "mwakakelvin"
       facebook: "tipsydata"
