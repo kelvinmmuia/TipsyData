@@ -12,6 +12,9 @@ tags:
   - EDA in r
 description: Primitive data types in R.
 lead: This article helps you get started with the R programming language by getting accustomed to some of its data types.
+thumbnail:
+  src: img/r_data_types.png
+  visibility: list''
 ---
 
 
