@@ -33,7 +33,20 @@ Params:
       - recent
       - categories
       - taglist
-  twitter_cards: yes
+  twitter_cards: no
   widgets:
     recent_num: 5
-    tags_counter: no
+    tags_counter: yes
+  social:
+  - name: LinkedIn
+    icon: linkedin
+    link: https://www.linkedin.com/kelvin-mwaka-muia
+  - name: Twitter
+    icon: twitter
+    link: https://twitter.com/mwakakelvin
+  - name: Facebook
+    icon: facebook
+    link: https://web.facebook.com/tipsydata
+  - name: GitHub
+    icon: github
+    link: https://github.com/kelvinmmuia
