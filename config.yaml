@@ -21,7 +21,6 @@ Params:
     - news
   opengraph: yes
   pager: yes
-  toc: true
   post_meta:
     - date
     - categories
@@ -30,15 +29,14 @@ Params:
   sidebar:
     home: right
     list: right
-    single: left
+    single: right
     widgets:
       - search
       - social
       - recent
       - categories
       - taglist
-      - languages
-  twitter_cards: no
+  twitter_cards: yes
   widgets:
     recent_num: 5
     tags_counter: yes
@@ -49,4 +47,5 @@ Params:
       facebook: "tipsydata"
       github: "kelvinmmuia"
       email: "kelvinmwaka@gmail.com"
-
+    search:
+      cached: true
