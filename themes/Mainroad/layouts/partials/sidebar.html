@@ -10,22 +10,6 @@
 {{- if $sidebar -}}
 <aside class="sidebar{{ if eq $sidebar "left" }} sidebar--left{{ end }}">
   {{- $root := . }}
-
-  <!-- Other sidebar widgets here -->
-
-  <!-- Social Media Profile Tags -->
-  <div class="widget">
-    <h4 class="widget__title">Follow Me</h4>
-    <div class="widget__content">
-      <ul class="social-media">
-        <li><a href="https://www.linkedin.com/kelvin-mwaka-muia" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-        <li><a href="https://twitter.com/mwakakelvin" target="_blank"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="https://web.facebook.com/tipsydata" target="_blank"><i class="fab fa-facebook"></i></a></li>
-        <li><a href="https://github.com/kelvinmmuia" target="_blank"><i class="fab fa-github"></i></a></li>
-      </ul>
-    </div>
-  </div>
-
   {{- with (default .Site.Params.sidebar.widgets .Params.widgets) -}}
     {{- range $widget := . }}
       {{- $widgetPath := printf "widgets/%s.html" $widget }}
