@@ -105,6 +105,8 @@ boxplot(clean_data$hp, main="Boxplot of hp\nWithout an outlier")
 <img src="{{< blogdown/postref >}}index_files/figure-html/boxplot-1.png" width="672" />
 
 ![A simple boxplot](index_files/figure-html/boxplot-1.png)
+    
+
 **3. Data Normalization and Scaling**    
 
 Normalization and scaling techniques help standardize the range and distribution of variables. Using the "mtcars" dataset, we'll demonstrate methods like min-max scaling, z-score normalization, and logarithmic transformations, and visualize their differences on the `hp` variable's distribution;
