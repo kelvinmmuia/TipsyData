@@ -74,7 +74,7 @@ Arthritis |>
   ggplot(aes(x = Age)) +
   geom_histogram(bins = 9) +
   facet_wrap(~Treatment) +
-  labs(title = "Distribution of Age by Treatment type")+
+  labs(title = "Distribution of Age by Treatment")+
   theme_pubr()
 ```
     
