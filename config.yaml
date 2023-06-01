@@ -1,7 +1,7 @@
 baseurl: "https://tipsydata.netlify.app/"
 title: TipsyData
 languageCode: en-us
-paginate: '10'
+paginate: '7'
 theme: Mainroad
 disqusShortname: "tipsydata" 
 googleAnalytics: "G-YNMLVTTZ1X"
@@ -39,7 +39,7 @@ Params:
   twitter_cards: yes
   widgets:
     recent_num: 5
-    categories_num: 6
+    categories_num: 5
     tags_counter: yes
     social:
       cached: false
