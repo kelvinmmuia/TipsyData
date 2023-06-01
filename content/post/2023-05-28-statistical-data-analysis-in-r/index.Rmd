@@ -7,6 +7,7 @@ categories:
 - Data Science
 - R
 - R Programming
+- Inferential statistics
 tags:
 - statistical analysis in r
 - data analysis in r

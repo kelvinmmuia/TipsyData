@@ -7,6 +7,7 @@ categories:
 - Data Science
 - R Programming
 - R
+- Inferential statistics
 tags:
 - statistical analysis in r
 - rstats
@@ -106,7 +107,7 @@ age_ci
 ## # A tibble: 1 × 2
 ##   lower_ci upper_ci
 ##      <dbl>    <dbl>
-## 1     50.6     56.3
+## 1     50.7     56.1
 ```
       
 From the results of the confidence interval computation, we may use the confidence interval (C.I.) values indicate to make a conclusion about the mean age of the subjects in The Arthritis data. In this case, we are not sure about the true mean of the subjects of the Arthritis study, but we know that the mean age of the subjects in the Arthritis data is between 50.62(2 d.p.) and 55.93(2 d.p.) at a 0.05 level of significance.
@@ -143,7 +144,7 @@ sex_prop_ci
 ## # A tibble: 1 × 2
 ##   lower_ci upper_ci
 ##      <dbl>    <dbl>
-## 1    0.607    0.786
+## 1    0.607    0.798
 ```
      
 The confidence interval of [0.6071, 0.7976] (4 d.p). implies that while we are not sure of the true proportion of female subjects suffering from Rheumatoid Arthritis in the Arthritis dataset, we know that the proportion of females is between 0.6071 and 07976 (4. d.p.) at a 0.05 level of significance.    
@@ -180,7 +181,7 @@ Arthritis |>
 ## # A tibble: 1 × 2
 ##   lower_ci upper_ci
 ##      <dbl>    <dbl>
-## 1   -0.338    0.116
+## 1   -0.338    0.127
 ```
       
 To interpret the computed confidence interval of [-0.328, 0.1408] (4 d.p.), we could say that while we are not sure of the true difference in proportions between the females and males who received treatment, we know that the proportion of males who underwent treatment among the males was greater than the proportion of females among the female group who underwent treatment.
