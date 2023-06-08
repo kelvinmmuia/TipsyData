@@ -94,7 +94,7 @@ print(average_values)
 
 Functions in R allow us to optimize code efficiency by avoiding redundant computations. Instead of writing the same set of instructions repeatedly, we can encapsulate them within a function and call it whenever needed. This approach minimizes code duplication and reduces the chances of errors. It also improves code maintenance and makes it easier to update and modify specific functionality without affecting the entire codebase.
 
-#### ***$\color{red}{\text{DON'T DO THIS}}$***
+<span style="color: red;">***DON'T DO THIS***</span>
 
 
 ```r
@@ -116,7 +116,7 @@ print(square_num3)
 # ... and so on for more numbers
 ```
 
-#### ***$\color{green}{\text{DO THIS INSTEAD}}$***    
+<span style="color: red;">***DO THIS INSTEAD***</span>   
 
 
 ```r
