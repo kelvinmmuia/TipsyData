@@ -27,7 +27,9 @@ thumbnail:
 
 <!--more-->
 
-## Introduction to functions in R.   
+## Introduction to functions in R.    
+
+![](index_files/figure-html/functions_in_r.png)
 
 Functions are the lifeblood of programming in R. They enable us to streamline our code, optimize efficiency, and reuse solutions across different scenarios. In this blog post, we'll dive into the fascinating application of functions in R, exploring why they are essential, how to create and use them, when to apply them, and where they can make a significant impact on your data analysis projects.
 
@@ -58,6 +60,8 @@ square_root<- function(num) {
 square_root(9)
 ## [1] 3
 ```
+
+
 
 
 
