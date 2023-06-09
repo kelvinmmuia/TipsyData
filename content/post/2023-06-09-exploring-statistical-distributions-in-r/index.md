@@ -46,7 +46,7 @@ Statistical distributions play a crucial role in data analysis and modeling. Und
 
 ### 1. The Normal Distribution.
 
-The normal distribution \(\mathcal{N}(\mu, \sigma^2)\), also known as the Gaussian distribution, is a widely used continuous probability distribution. It is symmetric, bell-shaped, and characterized by its mean and standard deviation. In R, we can easily generate data from a normal distribution using the `rnorm()` function. By specifying the desired sample size, mean, and standard deviation, we can create datasets that follow the normal distribution. In the code example below, we generate data from a standard normal distribution (mean = 0, standard deviation = 1) (\(\mathcal{N}(0, 1)\)) with different sample sizes. We then compute summary statistics, such as the mean and standard deviation, to gain insights into the characteristics of the data. Finally, we visualize the distributions using density plots, allowing us to observe the shape and density of the data.
+The normal distribution `\(\mathcal{N}(\mu, \sigma^2)\)`, also known as the Gaussian distribution, is a widely used continuous probability distribution. It is symmetric, bell-shaped, and characterized by its mean and standard deviation. In R, we can easily generate data from a normal distribution using the `rnorm()` function. By specifying the desired sample size, mean, and standard deviation, we can create datasets that follow the normal distribution. In the code example below, we generate data from a standard normal distribution (mean = 0, standard deviation = 1) ($\mathcal{N}(0, 1)$) with different sample sizes. We then compute summary statistics, such as the mean and standard deviation, to gain insights into the characteristics of the data. Finally, we visualize the distributions using density plots, allowing us to observe the shape and density of the data.
 
 
 ```r
@@ -102,9 +102,9 @@ The uniform distribution represents a continuous random variable with equal prob
 
 The probability density function (PDF) of the Uniform distribution is given by:
 
-\[f(x) = \frac{1}{b - a}\]
+`\(f(x) = \frac{1}{b - a}\)`
 
-where \(a\) and \(b\) are the minimum and maximum values of the distribution, respectively.
+where `\(a\)` and `\(b\)` are the minimum and maximum values of the distribution, respectively.
 
 
 
@@ -168,11 +168,9 @@ The Bernoulli distribution models a binary random variable, typically representi
 
 The probability mass function (PMF) of the Bernoulli distribution is given by:
 
-\[
-f(x; p) = p^x \cdot (1 - p)^{1 - x}
-\]
+`\(f(x;p) = p^x \cdot (1 - p)^{1 - x}\)`
 
-where \(x\) is the outcome (0 or 1) and \(p\) is the probability of success.
+where `\(x\)` is the outcome (0 or 1) and `\(p\)` is the probability of success.
 
 
 
@@ -200,10 +198,10 @@ Understanding the Bernoulli distribution is essential when working with binary d
       
 ### 5. The Binomial Distribution.   
 
-The binomial distribution ($X \sim \text{Binomial}(n,p)$) models the number of successes in a fixed number of independent Bernoulli trials. It is characterized by two parameters:   
+The binomial distribution; `\(X \sim \text{Binomial}(n,p)\)` models the number of successes in a fixed number of independent Bernoulli trials. It is characterized by two parameters:   
 
-- the number of trials and,
-- the probability of success.    
+- `\(n\)`:- the number of trials and,
+- `\(p\)`:- the probability of success.    
 
 In our code example below, we are going to fix the number of trials as well as the probability of success. Next we shall generate data based on varying number observations, for us to easily compare the results through visualization.   
 
@@ -232,16 +230,15 @@ for (i in 1:length(sizes)) {
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/binomial-1.png" width="672" />
      
+     
 ![](index_files/figure-html/binomial-1.png)
-
-       
 
 As the number of observations increases in the binomial distribution with a fixed number of trials (10) and a fixed probability of success (0.5), we observe a central tendency in the distribution. The distribution becomes more symmetric around its mean, indicating a balanced distribution of successes and failures. The mean represents the expected number of successes, which remains constant at 5 for this fixed probability. With a larger number of observations, the distribution becomes more concentrated around the mean, resulting in a narrower spread of possible outcomes.    
 
 
 ### 6. The Poisson Distribution.    
 
-The Poisson distribution: ($$P(X = k) = \frac{{e^{-\lambda} \cdot \lambda^k}}{{k!}}$$)
+The Poisson distribution; `$$P(X = k) = \frac{{e^{-\lambda} \cdot \lambda^k}}{{k!}}$$`
 
 models the number of events occurring in a fixed interval of time or space, given a constant average rate. In the following code example, we explore the Poisson distribution with different lambda values. The lambda parameter represents the average rate or intensity of events.   
 
@@ -276,7 +273,7 @@ The density plots above show the probability density of observing different valu
 
 ### 7. The Gamma Distribution.   
 
-The gamma distribution; \[f(x; \alpha, \beta) = \frac{{\beta^\alpha}}{{\Gamma(\alpha)}} \cdot x^{\alpha-1} \cdot e^{-\beta x}\]
+The gamma distribution; `\(f(x; \alpha, \beta) = \frac{{\beta^\alpha}}{{\Gamma(\alpha)}} \cdot x^{\alpha-1} \cdot e^{-\beta x}\)`
 
 where:   
 - `\(x\)` represents the random variable,
@@ -322,12 +319,12 @@ The beta distribution is a continuous probability distribution defined on the in
 
 The distribution is usually expressed as;  
 
-\[ f(x|\alpha, \beta) = \frac{1}{B(\alpha, \beta)} \cdot x^{\alpha-1} \cdot (1-x)^{\beta-1} \]
+$f(x|\alpha, \beta) = \frac{1}{B(\alpha, \beta)} \cdot x^{\alpha-1} \cdot (1-x)^{\beta-1} $
 
 Where:
-- \( x \) is the random variable, with \( 0 \leq x \leq 1 \)
-- \( \alpha \) and \( \beta \) are the shape parameters of the Beta distribution
-- \( B(\alpha, \beta) \) is the Beta function, defined as \( B(\alpha, \beta) = \frac{\Gamma(\alpha) \cdot \Gamma(\beta)}{\Gamma(\alpha + \beta)} \), where \( \Gamma() \) denotes the gamma function.
+- $ x $ is the random variable, with $ 0 \leq x \leq 1 $
+- $\alpha $ and $ \beta $ are the shape parameters of the Beta distribution
+- $ B(\alpha, \beta) $ is the Beta function, defined as $ B(\alpha, \beta) = \frac{\Gamma(\alpha) \cdot \Gamma(\beta)}{\Gamma(\alpha + \beta)} $, where $ \Gamma() $ denotes the gamma function.
 
 
 
@@ -407,7 +404,7 @@ In the above density plots, we have generated three sets of data from Weibull di
 The multivariate normal distribution generalizes the normal distribution to multiple dimensions. It is characterized by its mean vector and covariance matrix.
 Its formula is written as below;  
 
-\[ f(\mathbf{x}|\boldsymbol{\mu},\boldsymbol{\Sigma}) = \frac{1}{{(2\pi)^{d/2}|\boldsymbol{\Sigma}|^{1/2}}} \exp\left(-\frac{1}{2}(\mathbf{x}-\boldsymbol{\mu})^T \boldsymbol{\Sigma}^{-1} (\mathbf{x}-\boldsymbol{\mu})\right) \]
+$ f(\mathbf{x}|\boldsymbol{\mu},\boldsymbol{\Sigma}) = \frac{1}{{(2\pi)^{d/2}|\boldsymbol{\Sigma}|^{1/2}}} \exp\left(-\frac{1}{2}(\mathbf{x}-\boldsymbol{\mu})^T \boldsymbol{\Sigma}^{-1} (\mathbf{x}-\boldsymbol{\mu})\right)$
 
 Where:
 
