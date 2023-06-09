@@ -87,6 +87,7 @@ for (size in sample_sizes) {
 # Reset the plotting layout to default
 par(mfrow = c(1, 1))
 ```
+
       
 ![](index_files/figure-html/normal-1.png)
 
