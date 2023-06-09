@@ -391,6 +391,7 @@ legend("topright", legend = c("shape= 1 & scale= 2",
 ```
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/weibull-1.png" width="672" />
+
       
 ![](index_files/figure-html/weibull-1.png)
 
@@ -412,7 +413,7 @@ Where:
 - `\(\mu\)` represents the mean vector (d-dimensional), and
 - `\(\Sigma\)` represents the covariance matrix (d x d)
 
-In R, we can generate data from a multivariate normal distribution with two variables using the `mvrnorm()` function from the `MASS` package. Next, we shall create a scatter plot, and calculate summary statistics;   
+In R, we can generate data from a multivariate normal distribution with two variables using the `mvrnorm()` function from the `MASS` package. Next, we shall create a scatter plot, and density plots of the generated variables;   
 
 
 ```r
@@ -439,6 +440,7 @@ legend("topright", legend = c("variable 1",
 ```
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/multivariatenorm-1.png" width="672" />
+
       
 ![](index_files/figure-html/multivariatenorm-1.png)
       
