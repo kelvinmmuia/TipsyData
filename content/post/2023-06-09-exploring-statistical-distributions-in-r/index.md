@@ -46,7 +46,7 @@ Statistical distributions play a crucial role in data analysis and modeling. Und
 
 ### 1. The Normal Distribution.
 
-The normal distribution `\(\mathcal{N}(\mu, \sigma^2)\)`, also known as the Gaussian distribution, is a widely used continuous probability distribution. It is symmetric, bell-shaped, and characterized by its mean and standard deviation. In R, we can easily generate data from a normal distribution using the `rnorm()` function. By specifying the desired sample size, mean, and standard deviation, we can create datasets that follow the normal distribution. In the code example below, we generate data from a standard normal distribution (mean = 0, standard deviation = 1) ($\mathcal{N}(0, 1)$) with different sample sizes. We then compute summary statistics, such as the mean and standard deviation, to gain insights into the characteristics of the data. Finally, we visualize the distributions using density plots, allowing us to observe the shape and density of the data.
+The normal distribution `\(\mathcal{N}(\mu, \sigma^2)\)`, also known as the Gaussian distribution, is a widely used continuous probability distribution. It is symmetric, bell-shaped, and characterized by its mean and standard deviation. In R, we can easily generate data from a normal distribution using the `rnorm()` function. By specifying the desired sample size, mean, and standard deviation, we can create datasets that follow the normal distribution. In the code example below, we generate data from a standard normal distribution (mean = 0, standard deviation = 1) ($\mathcal{N}(0, 1)$) with different sample sizes, and visualize the distributions using density plots, allowing us to observe the shape and distribution of the data.
 
 
 ```r
