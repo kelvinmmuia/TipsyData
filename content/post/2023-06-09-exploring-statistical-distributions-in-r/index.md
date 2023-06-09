@@ -60,39 +60,16 @@ for (size in sample_sizes) {
   data <- rnorm(size, mean = 0, sd = 1)
   #create a density plot for each sample size
   plot(density(data), col = "blue", 
-       main = paste("Normal Distribution (n =", size, ")"))
-  # Calculate summary statistics
-  mean_data <- mean(data)
-  sd_data <- sd(data)
-  cat("Summary Statistics (n =", size, "):\n")
-  cat("Mean:", mean_data, "\n")
-  cat("Standard Deviation:", sd_data, "\n\n")}
-## Summary Statistics (n = 100 ):
-## Mean: -0.01281906 
-## Standard Deviation: 1.070855
-## Summary Statistics (n = 1000 ):
-## Mean: 0.01582001 
-## Standard Deviation: 1.000498
-## Summary Statistics (n = 10000 ):
-## Mean: 0.005393826 
-## Standard Deviation: 1.000117
+       main = paste("Normal Distribution (n =", size, ")"))}
 ```
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/normal-1.png" width="672" />
-
-```
-## Summary Statistics (n = 100000 ):
-## Mean: -0.003142719 
-## Standard Deviation: 1.00007
-# Reset the plotting layout to default
-par(mfrow = c(1, 1))
-```
 
       
 ![](index_files/figure-html/normal-1.png)
 
      
-The observed statistics from the summary statistics of the sample sizes demonstrate the central tendency of the data, represented by the mean, and the dispersion of the data points around the mean, represented by the standard deviation. As the sample size increases, the sample means tend to approach the population mean (0 in this case), and the spread of data becomes narrower, indicating a higher level of precision in estimating the population parameters.   
+The density plots above demonstrate the central tendency of the data, represented by the mean, and the dispersion of the data points around the mean, represented by the standard deviation. As the sample size increases, the sample means tend to approach the population mean (0 in this case), and the spread of data becomes narrower, indicating a higher level of precision in estimating the population parameters.   
 
 
 
