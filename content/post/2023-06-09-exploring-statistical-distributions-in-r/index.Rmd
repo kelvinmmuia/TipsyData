@@ -48,7 +48,7 @@ Statistical distributions play a crucial role in data analysis and modeling. Und
 
 ### 1. The Normal Distribution.
 
-The normal distribution $\mathcal{N}(\mu, \sigma^2)$, also known as the Gaussian distribution, is a widely used continuous probability distribution. It is symmetric, bell-shaped, and characterized by its mean and standard deviation. In R, we can easily generate data from a normal distribution using the `rnorm()` function. By specifying the desired sample size, mean, and standard deviation, we can create datasets that follow the normal distribution. In the code example below, we generate data from a standard normal distribution (mean = 0, standard deviation = 1) ($\mathcal{N}(0, 1)$) with different sample sizes, and visualize the distributions using density plots, allowing us to observe the shape and distribution of the data.
+The normal distribution $\mathcal{N}(\mu, \sigma^2)$, also known as the Gaussian distribution, is a widely used continuous probability distribution. It is symmetric, bell-shaped, and characterized by its mean and standard deviation. In R, we can easily generate data from a normal distribution using the `rnorm()` function. By specifying the desired sample size, mean, and standard deviation, we can create datasets that follow the normal distribution. In the code example below, we generate data from a standard normal distribution (mean = 0, standard deviation = 1) $\mathcal{N}(0, 1)$ , with different sample sizes, and visualize the distributions using density plots, allowing us to observe the shape and distribution of the data.
 
 ```{r normal}
 #set the random number generator seed for reproducible results
@@ -278,12 +278,12 @@ The beta distribution is a continuous probability distribution defined on the in
 
 The distribution is usually expressed as;  
 
-$f(x|\alpha, \beta) = \frac{1}{B(\alpha, \beta)} \cdot x^{\alpha-1} \cdot (1-x)^{\beta-1} $
+$$f(x|\alpha, \beta) = \frac{1}{B(\alpha, \beta)} \cdot x^{\alpha-1} \cdot (1-x)^{\beta-1}$$
 
 Where:
-- $ x $ is the random variable, with $ 0 \leq x \leq 1 $
-- $\alpha $ and $ \beta $ are the shape parameters of the Beta distribution
-- $ B(\alpha, \beta) $ is the Beta function, defined as $ B(\alpha, \beta) = \frac{\Gamma(\alpha) \cdot \Gamma(\beta)}{\Gamma(\alpha + \beta)} $, where $ \Gamma() $ denotes the gamma function.
+- $x$ is the random variable, with $0 \leq x \leq 1$
+- $\alpha$ and $\beta$ are the shape parameters of the Beta distribution
+- $B(\alpha, \beta)$ is the Beta function, defined as $B(\alpha, \beta) = \frac{\Gamma(\alpha) \cdot \Gamma(\beta)}{\Gamma(\alpha + \beta)}$, where $\Gamma()$ denotes the gamma function.
 
 
 ```{r beta}
@@ -309,11 +309,11 @@ legend("topright", legend = c("shape1= 1 & shape2= 2",
        col = c("red", "green","blue","black", "purple"), 
        cex = 0.7, lwd = 2)
 ```
+
      
 ![](index_files/figure-html/beta-1.png)
 
 
-     
 The density plots above effectively display the characteristics and variations of the Beta distributions with different shape parameters. When both the shape parameters are set equal to one, the beta distribution assumes the uniform distribution. This visualization allows for a better understanding of how the shape parameters impact the distribution's shape.     
 
 
