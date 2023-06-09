@@ -278,7 +278,7 @@ The beta distribution is a continuous probability distribution defined on the in
 
 The distribution is usually expressed as;  
 
-$$f(x|\alpha, \beta) = \frac{1}{B(\alpha, \beta)} \cdot x^{\alpha-1} \cdot (1-x)^{\beta-1}$$
+$f(x|\alpha, \beta) = \frac{1}{B(\alpha, \beta)} \cdot x^{\alpha-1} \cdot (1-x)^{\beta-1}$
 
 Where:
 - $x$ is the random variable, with $0 \leq x \leq 1$
@@ -358,7 +358,7 @@ In the above density plots, we have generated three sets of data from Weibull di
 The multivariate normal distribution generalizes the normal distribution to multiple dimensions. It is characterized by its mean vector and covariance matrix.
 Its formula is written as below;  
 
-$ f(\mathbf{x}|\boldsymbol{\mu},\boldsymbol{\Sigma}) = \frac{1}{{(2\pi)^{d/2}|\boldsymbol{\Sigma}|^{1/2}}} \exp\left(-\frac{1}{2}(\mathbf{x}-\boldsymbol{\mu})^T \boldsymbol{\Sigma}^{-1} (\mathbf{x}-\boldsymbol{\mu})\right)$
+$f(\mathbf{x}|\boldsymbol{\mu},\boldsymbol{\Sigma}) = \frac{1}{{(2\pi)^{d/2}|\boldsymbol{\Sigma}|^{1/2}}} \exp\left(-\frac{1}{2}(\mathbf{x}-\boldsymbol{\mu})^T \boldsymbol{\Sigma}^{-1} (\mathbf{x}-\boldsymbol{\mu})\right)$
 
 Where:
 
