@@ -6,7 +6,7 @@ sidebar: true
 title: About
 ---
 
-Welcome to TipsyData! 🍷
+Welcome to TipsyData!
 
 At TipsyData, we're all about embracing the concept of "tipsy-data" and transforming it into tidy and sober insights. In the real world, we often encounter messy and untamed data that can leave us feeling overwhelmed. But fear not, because we're here to guide you through the exciting realm of data science, analytics, and visualization using the remarkable R programming language and its vibrant ecosystem.
 
