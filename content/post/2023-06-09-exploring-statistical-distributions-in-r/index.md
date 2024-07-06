@@ -2,6 +2,7 @@
 title: "Exploring Statistical Distributions in R"
 author: "Kelvin Mwaka Muia"
 date: "2023-06-09"
+mathjax: true
 slug: []
 categories:
 - Data Science
