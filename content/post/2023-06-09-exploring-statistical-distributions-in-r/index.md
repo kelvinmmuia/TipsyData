@@ -114,7 +114,7 @@ The uniform distribution is evenly distributed within the specified interval, an
 
 ### 3. The Exponential Distribution.    
 
-The exponential distribution ($X \sim \text{Exponential}(\lambda)$) models the time between events in a Poisson process, where events occur continuously and independently at a constant average rate (also known as decay rate). In the code example below, we generate three sets of data from an exponential distribution in R, each with a different decay rate. Here we use the `rexp()` function, and visualize the resulting density distributions as below;
+The exponential distribution $$X \sim \text{Exponential}(\lambda)$$ models the time between events in a Poisson process, where events occur continuously and independently at a constant average rate (also known as decay rate). In the code example below, we generate three sets of data from an exponential distribution in R, each with a different decay rate. Here we use the `rexp()` function, and visualize the resulting density distributions as below;
 
 
 ```r
@@ -146,9 +146,9 @@ The Bernoulli distribution models a binary random variable, typically representi
 
 The probability mass function (PMF) of the Bernoulli distribution is given by:
 
-`\(f(x;p) = p^x \cdot (1 - p)^{1 - x}\)`
+$$f(x;p) = p^x \cdot (1 - p)^{1 - x}$$
 
-where `\(x\)` is the outcome (0 or 1) and `\(p\)` is the probability of success.
+where $$x$$ is the outcome (0 or 1) and $$p$$ is the probability of success.
 
 
 
@@ -176,10 +176,10 @@ Understanding the Bernoulli distribution is essential when working with binary d
       
 ### 5. The Binomial Distribution.   
 
-The binomial distribution; `\(X \sim \text{Binomial}(n,p)\)` models the number of successes in a fixed number of independent Bernoulli trials. It is characterized by two parameters:   
+The binomial distribution; $$X \sim \text{Binomial}(n,p)$$ models the number of successes in a fixed number of independent Bernoulli trials. It is characterized by two parameters such that;   
 
-- `\(n\)`:- the number of trials and,
-- `\(p\)`:- the probability of success.    
+$$n$$ is the number of trials and,
+$$p$$ is the probability of success.    
 
 In our code example below, we are going to fix the number of trials as well as the probability of success. Next we shall generate data based on varying number observations, for us to easily compare the results through visualization.   
 
@@ -216,7 +216,7 @@ As the number of observations increases in the binomial distribution with a fixe
 
 ### 6. The Poisson Distribution.    
 
-The Poisson distribution; `$$P(X = k) = \frac{{e^{-\lambda} \cdot \lambda^k}}{{k!}}$$`
+The Poisson distribution; $$P(X = k) = \frac{{e^{-\lambda} \cdot \lambda^k}}{{k!}}$$
 
 models the number of events occurring in a fixed interval of time or space, given a constant average rate. In the following code example, we explore the Poisson distribution with different lambda values. The lambda parameter represents the average rate or intensity of events.   
 
@@ -246,18 +246,18 @@ for (i in 1:length(lambdas)) {
       
 ![](index_files/figure-html/poisson-1.png)
       
-The density plots above show the probability density of observing different values, allowing us to compare the shapes and central tendencies of the distributions. This implies that increasing the lambda rate `\((\lambda)\)` in the Poisson distribution leads to a more concentrated, right-skewed distribution that becomes increasingly symmetric, with higher probabilities for larger values and larger variance.    
+The density plots above show the probability density of observing different values, allowing us to compare the shapes and central tendencies of the distributions. This implies that increasing the lambda rate $$\lambda$$ in the Poisson distribution leads to a more concentrated, right-skewed distribution that becomes increasingly symmetric, with higher probabilities for larger values and larger variance.    
 
 
 ### 7. The Gamma Distribution.   
 
-The gamma distribution; `\(f(x; \alpha, \beta) = \frac{{\beta^\alpha}}{{\Gamma(\alpha)}} \cdot x^{\alpha-1} \cdot e^{-\beta x}\)`
+The gamma distribution; $$f(x; \alpha, \beta) = \frac{{\beta^\alpha}}{{\Gamma(\alpha)}} \cdot x^{\alpha-1} \cdot e^{-\beta x}$$
 
 where:   
-- `\(x\)` represents the random variable,
-- `\(\alpha\)` is the shape parameter,
-- `\(\beta\)`is the rate parameter,
-- `\(\Gamma(\alpha)\)` is the gamma function,
+$$x$$ represents the random variable,
+$$\alpha$$ is the shape parameter,
+$$\beta$$ is the rate parameter and,
+$$\Gamma(\alpha)$$ is the gamma function,
 
 is a continuous probability distribution that generalizes both the exponential and chi-squared distributions. It is characterized by its shape and scale parameters.
 
@@ -297,12 +297,12 @@ The beta distribution is a continuous probability distribution defined on the in
 
 The distribution is usually expressed as;  
 
-`\(f(x|\alpha, \beta) = \frac{1}{B(\alpha, \beta)} \cdot x^{\alpha-1} \cdot (1-x)^{\beta-1}\)`
+$$f(x|\alpha, \beta) = \frac{1}{B(\alpha, \beta)} \cdot x^{\alpha-1} \cdot (1-x)^{\beta-1}$$
 
 Where:
-- `\(x\)` is the random variable, with `\(0 \leq x \leq 1\)`
-- `\(\alpha\)` and `\(\beta\)` are the shape parameters of the Beta distribution
-- `\(B(\alpha, \beta)\)` is the Beta function, defined as `\(B(\alpha, \beta) = \frac{\Gamma(\alpha) \cdot \Gamma(\beta)}{\Gamma(\alpha + \beta)}\)`, where `\(\Gamma()\)` denotes the gamma function.
+$$x$$ is the random variable, with $$0 \leq x \leq 1$$
+$$\alpha$$ and $$\beta$$ are the shape parameters of the Beta distribution
+$$B(\alpha, \beta)$$ is the Beta function, defined as $$B(\alpha, \beta) = \frac{\Gamma(\alpha) \cdot \Gamma(\beta)}{\Gamma(\alpha + \beta)}$$, where $$\Gamma()$$ denotes the gamma function.
 
 
 
@@ -343,13 +343,11 @@ The density plots above effectively display the characteristics and variations o
 
 The Weibull distribution is a versatile and widely used probability distribution that can model a variety of phenomena in different fields, including reliability analysis, survival analysis, and extreme value analysis.   
 The formula of the distribution is as follows; 
-`$$f(x; \text{{shape}}, \text{{scale}}) = \left(\frac{{\text{{shape}}}}{{\text{{scale}}}}\right) \cdot \left(\frac{{x}}{{\text{{scale}}}}\right)^{\text{{shape}} - 1} \cdot \exp\left(-\left(\frac{{x}}{{\text{{scale}}}}\right)^{\text{{shape}}}\right)$$`   
+$$f(x; \text{{shape}}, \text{{scale}}) = \left(\frac{{\text{{shape}}}}{{\text{{scale}}}}\right) \cdot \left(\frac{{x}}{{\text{{scale}}}}\right)^{\text{{shape}} - 1} \cdot \exp\left(-\left(\frac{{x}}{{\text{{scale}}}}\right)^{\text{{shape}}}\right)$$  
 
-- `\(x\)` is the random variable,
-- `\(shape\)` is the shape parameter of the distribution, and
-- `\(scale\)` is the scale parameter of the distribution
-
-
+$$x$$ is the random variable,
+$$shape$$ is the shape parameter of the distribution, and
+$$scale$$ is the scale parameter of the distribution
 
 ```r
 rm(list=ls())
@@ -383,13 +381,13 @@ In the above density plots, we have generated three sets of data from Weibull di
 The multivariate normal distribution generalizes the normal distribution to multiple dimensions. It is characterized by its mean vector and covariance matrix.
 Its formula is written as below;  
 
-`\(f(\mathbf{x}|\boldsymbol{\mu},\boldsymbol{\Sigma}) = \frac{1}{{(2\pi)^{d/2}|\boldsymbol{\Sigma}|^{1/2}}} \exp\left(-\frac{1}{2}(\mathbf{x}-\boldsymbol{\mu})^T \boldsymbol{\Sigma}^{-1} (\mathbf{x}-\boldsymbol{\mu})\right)\)`
+$$f(\mathbf{x}|\boldsymbol{\mu},\boldsymbol{\Sigma}) = \frac{1}{{(2\pi)^{d/2}|\boldsymbol{\Sigma}|^{1/2}}} \exp\left(-\frac{1}{2}(\mathbf{x}-\boldsymbol{\mu})^T \boldsymbol{\Sigma}^{-1} (\mathbf{x}-\boldsymbol{\mu})\right)$$
 
 Where:
 
-- `\(x\)` represents the vector of random variables (d-dimensional),
-- `\(\mu\)` represents the mean vector (d-dimensional), and
-- `\(\Sigma\)` represents the covariance matrix (d x d)
+$$x$$ represents the vector of random variables (d-dimensional),
+$$\mu$$ represents the mean vector (d-dimensional), and
+$$\Sigma$$ represents the covariance matrix (d x d)
 
 In R, we can generate data from a multivariate normal distribution with two variables using the `mvrnorm()` function from the `MASS` package. Next, we shall create a scatter plot, and density plots of the generated variables;   
 
